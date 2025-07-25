@@ -5,20 +5,6 @@
 class WCAG3AP_License {
 
     /**
-     * Plugin activation hook.
-     */
-    public static function activate() {
-        // Placeholder for activation tasks.
-    }
-
-    /**
-     * Plugin deactivation hook.
-     */
-    public static function deactivate() {
-        // Placeholder for deactivation cleanup.
-    }
-
-    /**
      * Prompt user for license key if needed.
      */
     public static function maybe_prompt_for_key() {

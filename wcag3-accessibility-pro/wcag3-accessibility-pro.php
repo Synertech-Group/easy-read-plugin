@@ -16,8 +16,5 @@ define( 'WCAG3AP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 require_once WCAG3AP_PLUGIN_PATH . 'includes/class-autoloader.php';
 WCAG3AP_Autoloader::register();
 
-register_activation_hook( __FILE__, [ 'WCAG3AP_License', 'activate' ] );
-register_deactivation_hook( __FILE__, [ 'WCAG3AP_License', 'deactivate' ] );
-
 WCAG3AP_Init::init();
 
