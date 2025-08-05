@@ -1,0 +1,11 @@
+#wcag3ap-toolbar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#wcag3ap-toolbar button {
+    margin-right: 5px;
+}
